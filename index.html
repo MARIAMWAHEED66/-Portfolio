@@ -1,25 +1,157 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    [...]
-  </head>
-  <body>
-    <h6>HELLO THERE!</h6>
-    <h1>I AM MARIAM WAHEED</h1>
-    <img src= >
-   <div>
-       <!-- Description -->
-   </div>
-    <h2>About Me</h2>
-    <p>............</p>
-</div>
-    <h2>What I Enjoy the Most!</h2>
-    <ol>
-        <li>............</li>
-        <li>.............</li>
-        <li>.............</li>
-      </ol>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </div>
-  </body>
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body class="background">
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Mariam</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Future Goals</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link"></a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Welcome to<br><span class="home__title-color">Mariam's Cave</span><br>Job Seeker</h1>
+
+                </div>
+
+               
+
+                <div class="home__img">    
+                    <img src="assets/img/profile.jpg" width="426" height="640" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/memoji.webp" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Who Am I ?</h2>
+                        <p class="about__text">Hello there! This is Mariam Waheed. I am a fresh graduate from University of Bahrain with a bachelor degree in Civil Engineering. Long story short, i love being in places where i'm completly unknown.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Future Goals</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">What i want to learn..</h2>
+                        <p class="skills__text"> In 2021, my intentions is to enhance my skills through CODED Bootcamp. I didn't come this far to only come this far.  </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                          
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                         
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                       
+                        </div>
+                     
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/goals1.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Fun Time</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/workout.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/Holy-Quran.jpg" width="426" height="640" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/Hangeullal.jpg" width="426" height="640" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/tv.jpg" width="426" height="640" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/cockatiel.webp" width="426" height="640" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/emproidry.jpg" width="426" height="640" alt="">
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Mariam Waheed</p>
+            <p class="footer_description">Your Journey with me has ended. Thank You!</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
